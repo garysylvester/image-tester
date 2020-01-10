@@ -1,0 +1,84 @@
+* {
+-webkit-font-smoothing: antialiased;
+/* -moz-osx-font-smoothing: greyscale; */
+}
+
+:root {
+--text-color-attention: rgb(255, 0, 82);
+--text-color-dark: rgb(20, 23, 36);
+--text-color-error: rgb(249, 71, 71);
+--text-color-light: rgb(255, 255, 255);
+--text-color-neutral: rgb(144, 142, 151);
+--text-color-success: rgb(0, 255, 132);
+--text-color-warning: rgb(255, 230, 107);
+--text-color-rgb-attention: 255, 0, 82;
+--text-color-rgb-dark: 20, 23, 36;
+--text-color-rgb-error: 249, 71, 71;
+--text-color-rgb-light: 255, 255, 255;
+--text-color-rgb-neutral: 144, 142, 151;
+--text-color-rgb-success: 0, 255, 132;
+--text-color-rgb-warning: 255, 230, 107;
+
+--text-family-data: 'Aperçu Pro Mono', monospace;
+--text-family-primary: 'LL Brown', 'Proxima Nova', Arial, sans-serif;
+--text-family-secondary: 'Proxima Nova', Arial, sans-serif;
+
+--text-space-letter-spacing-all-caps: 0.1px;
+--text-space-letter-spacing-data-loose: 0.05px;
+--text-space-letter-spacing-data-moderate: 0px;
+
+--text-space-letter-spacing-display: -0.02px;
+--text-space-letter-spacing-heading: 0.02px;
+--text-space-letter-spacing-paragraph: 0.03px;
+
+--text-space-line-height-moderate: 1.618;
+--text-space-line-height-tight: 1.309;
+--text-space-line-height-tighter: 1.129;
+
+--text-size-option-100: 12px;
+--text-size-option-1000: 42px;
+--text-size-option-1100: 48px;
+--text-size-option-1200: 54px;
+--text-size-option-1300: 60px;
+--text-size-option-1400: 68px;
+--text-size-option-1500: 76px;
+--text-size-option-1600: 84px;
+--text-size-option-1700: 92px;
+--text-size-option-200: 14px;
+--text-size-option-300: 16px;
+--text-size-option-400: 18px;
+--text-size-option-500: 20px;
+--text-size-option-600: 24px;
+--text-size-option-700: 28px;
+--text-size-option-800: 32px;
+--text-size-option-900: 36px;
+
+--text-size-button-large: 20px;
+--text-size-button-medium: 16px;
+--text-size-button-small: 12px;
+
+--text-size-navigation-large: 20px;
+--text-size-navigation-medium: 16px;
+--text-size-navigation-small: 14px;
+
+--text-size-data-large: 20px;
+--text-size-data-larger: 32px;
+--text-size-data-medium: 16px;
+--text-size-data-small: 12px;
+
+--text-size-display-medium: 42px;
+--text-size-display-small: 36px;
+
+--text-size-heading-large: 28px;
+--text-size-heading-medium: 20px;
+--text-size-heading-small: 16px;
+--text-size-heading-smaller: 12px;
+
+--text-size-label-medium: 16px;
+--text-size-label-small: 12px;
+
+--text-size-paragraph-large: 20px;
+--text-size-paragraph-medium: 16px;
+--text-size-paragraph-small: 14px;
+--text-size-paragraph-smaller: 12px;
+}

@@ -1,0 +1,315 @@
+@import url("http://fs-master-test.quantum.ea.com/quantum/web/css");
+
+/*******************************************************/
+/*******************************************************/
+/******************** GLOBAL STYLES ********************/
+/*******************************************************/
+/*******************************************************/
+
+.contentOne {
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "featureDescription featureMedia";
+}
+
+.contentTwo {
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "featureDescription featureMedia";
+}
+
+.contentThree {
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "featureDescription featureMedia";
+}
+
+.contentFour {
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "featureDescription featureMedia";
+}
+
+.tab-bg1 {
+    background-image: url("../img/tab-image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tab-bg2 {
+    background-image: url("../img/tab-image2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tab-bg3 {
+    background-image: url("../img/tab-image3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tab-bg4 {
+    background-image: url("../img/tab-image4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tile-bg1 {
+    background-image: url("../img/tile-bg1.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.tile-bg2 {
+    background-image: url("../img/tile-bg2.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/*******************************************************/
+/*******************************************************/
+/************* Mobile - Small    680-0 px **************/
+/*******************************************************/
+/*******************************************************/
+
+
+
+/*******************************************************/
+/*******************************************************/
+/*********** Mobile - Large    1024-681 px *************/
+/*******************************************************/
+/*******************************************************/
+
+@media screen and (min-width: 681px) {
+
+}
+
+
+/*******************************************************/
+/*******************************************************/
+/*********** Desktop - Small   1120-1025 px ************/
+/*******************************************************/
+/*******************************************************/
+
+@media screen and (min-width: 1025px) {
+
+}
+
+/*******************************************************/
+/*******************************************************/
+/*********** Desktop - Medium  1440-1121 px ************/
+/*******************************************************/
+/*******************************************************/
+
+@media screen and (min-width: 1121px) {
+
+}
+
+/*******************************************************/
+/*******************************************************/
+/************* Desktop - Large - 2240-1441 *************/
+/*******************************************************/
+/*******************************************************/
+
+@media screen and (min-width: 1441px) {
+
+    /* ---------- Features Panel ----------- */
+
+    .features-panel {
+        display: grid;
+        grid-template-columns: 25% 75%;
+        max-height: 680px;
+        min-height: 656px;
+        justify-content: flex-start;
+        grid-template-areas: "tabs content";
+        align-items: center;
+        grid-area: header;
+        border-radius: var(--border-radius-large);
+        overflow: hidden;
+    }
+
+    /* ----- Tabs ------ */
+    .tab-group {
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+        grid-area: tabs;
+        background-color: var(--color-neutral-500);
+        position: relative;
+    }
+
+    .tablinks {
+        background-color: var(--color-brand-secondary);
+        display: flex;
+        position: relative;
+        opacity: 0.4;
+        transition: all 0.25s linear;
+        flex: 1;
+        width: auto;
+        cursor: pointer;
+        overflow: hidden;
+    }
+
+    .tablinks:hover {
+        background-color: var(--color-brand-secondary);
+        opacity: 1;
+    }
+
+    .tabSelected {
+        background-color: var(--color-brand-tertiary);
+    }
+
+    .tablinks::before {
+        content: "";
+        opacity: 0.6;
+        background: rgba(var(--color-neutral-rgb-700), 0.4);
+        display: flex;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        z-index: 999;
+    }
+
+    .tab-inner {
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: auto;
+        padding: var(--dimension-space-large);
+    }
+
+    .tablinks h4 {
+        align-self: flex-end;
+        position: absolute;
+        z-index: 1000;
+    }
+
+
+    .tablinks.active {
+        opacity: 1;
+    }
+
+    .tablinks.active::before {
+        content: "";
+        opacity: 0.8;
+        background-image: linear-gradient(135deg, #8B73FE 0%, #3878FE 100%);
+        display: flex;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        z-index: 999;
+    }
+
+    /* ----- Content Area ------ */
+    .content-area {
+        display: block;
+        background-color: var(--color-neutral-0);
+        min-width: 100%;
+        min-height: 100%;
+        height: 100%;
+    }
+
+    .tabcontent {
+        display: none;
+        height: 100%;
+        min-width: 100%;
+        min-height: 100%;
+        transition: all 0.25s linear;
+    }
+
+
+    .featureMediaBleed {
+        display: flex;
+        justify-self: flex-end;
+        align-self: flex-end;
+        overflow: visible;
+    }
+
+    .featureMediaBleed img {
+        align-self: flex-end;
+        width: 100%;
+    }
+
+    .featureMediaContained {
+        padding: var(--dimension-space-largest) var(--dimension-space-largest) var(--dimension-space-largest) var(--dimension-space-large);
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .featureMediaContainedVideo {
+        justify-self: flex-end;
+        padding: 16px;
+    }
+
+    .featureDescription {
+        padding: var(--dimension-space-largest) var(--dimension-space-large) var(--dimension-space-largest) var(--dimension-space-largest);
+    }
+
+    .oneUp-visualTile {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        background-image: url("../img/asset2.jpg");
+        background-size: cover;
+        background-position: center center;
+        overflow: hidden;
+        border-radius: var(--border-radius-medium);
+    }
+
+
+/* ----- Tile Icon ------ */
+    .tile-icon {
+        width: 32px;
+        height: 32px;
+        align-self: center;
+        transform: scale(1);
+        transition: all var(--animation-time-average) var(--animation-easing-standard);
+        cursor: pointer;
+    }
+
+    .tile-icon:hover {
+        transform: scale(1.1);
+    }
+
+/* ----- 50/50 Image ------ */
+    .oneUp-visualTile-50 {
+        width: 100%;
+        display: flex;
+        flex-grow: 2;
+        flex-direction: column;
+        overflow: hidden;
+        border-radius: var(--border-radius-medium);
+    }
+
+    .featureMediaContained-50 {
+        padding: var(--dimension-space-largest) var(--dimension-space-largest) var(--dimension-space-largest) var(--dimension-space-large);
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .visualTile-inner {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+
+
+/*******************************************************/
+/*******************************************************/
+/************* Desktop - X-Large  2241+ px *************/
+/*******************************************************/
+/*******************************************************/
+
+@media screen and (min-width: 2241px) {
+
+}

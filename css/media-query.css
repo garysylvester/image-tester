@@ -1,0 +1,20 @@
+:root {
+
+    --media-query-desktop-larger-min-width: 1721px;
+    --media-query-desktop-large-max-width: 1720px;
+    --media-query-desktop-large-min-width: 1521px;
+    --media-query-desktop-medium-max-width: 1520px;
+    --media-query-desktop-medium-min-width: 1321px;
+    --media-query-desktop-small-max-width: 1320px;
+    --media-query-desktop-small-min-width: 1121px;
+    --media-query-mobile-larger-max-width: 1120px;
+    --media-query-mobile-larger-min-width: 921px;
+    --media-query-mobile-large-max-width: 920px;
+    --media-query-mobile-large-min-width: 681px;
+    --media-query-mobile-medium-max-width: 680px;
+    --media-query-mobile-medium-min-width: 417px;
+    --media-query-mobile-small-max-width: 416px;
+    --media-query-mobile-small-min-width: 0px;
+    --media-query-tv-height: 1080px;
+    --media-query-tv-width: 1920px;
+}

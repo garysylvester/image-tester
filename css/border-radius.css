@@ -1,0 +1,17 @@
+:root {
+    --border-radius-large: 24px;
+    --border-radius-larger: 32px;
+    --border-radius-largest: 48px;
+    --border-radius-macro: 64px;
+    --border-radius-medium: 16px;
+    --border-radius-micro: 2px;
+    --border-radius-none: 0px;
+    --border-radius-small: 12px;
+    --border-radius-smaller: 8px;
+    --border-radius-smallest: 4px;
+    --stroke-dash-gap: 12px;
+    --stroke-dash-length: 8px;
+    --stroke-width-large: 8px;
+    --stroke-width-medium: 4px;
+    --stroke-width-small: 2px;
+}

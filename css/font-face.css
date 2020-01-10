@@ -1,0 +1,55 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+/***********************************  LL Brown *********************************/
+
+@font-face {
+  font-family: 'LL Brown';
+  src: url("../font/BrownPro-Light.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'LL Brown';
+  src: url("../font/BrownPro-Regular.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'LL Brown';
+  src: url("../font/BrownPro-Bold.otf");
+  font-weight: bold;
+}
+
+/*********************************  Proxima Nova *******************************/
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("../font/ProximaNova-Light.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("../font/ProximaNova-Regular.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("../font/ProximaNova-Bold.otf");
+  font-weight: bold;
+}
+
+/*********************************  Aperçu Mono ********************************/
+
+@font-face {
+  font-family: 'Aperçu Mono';
+  src: url("../font/apercu-mono-medium-pro.otf");
+  font-weight: normal;
+}
