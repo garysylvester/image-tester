@@ -115,6 +115,7 @@ main {
 /* Style the tab content */
 .tabcontent {
   display: none;
+  margin-bottom: var(--dimension-space-larger);
 }
 
 .densitySelectors {
@@ -177,6 +178,16 @@ h5 {
   color: var(--color-neutral-0);
 }
 
+h6 {
+  margin-bottom: var(--dimension-space-smallest);
+  font-family: var(--text-family-data);
+  font-size: var(--text-size-option-100);
+  color: var(--color-neutral-300);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
 ul {
   padding: 0 var(--dimension-space-medium) var(--dimension-space-large) var(--dimension-space-medium);
   list-style-position: outside;
@@ -204,6 +215,10 @@ li.listB {
 
 .row{
   margin-top: var(--dimension-space-larger);
+  text-align: center;
+}
+
+.content{
   text-align: center;
 }
 
@@ -237,6 +252,33 @@ main {
   width: 100%;
   height: auto;
 }
+
+.hero-component,
+  .hero{
+    width:100%;
+    height:680px;
+    object-fit: cover;
+  }
+
+  .hero::after {
+    content: "";
+    background-image: linear-gradient(180deg, rgba(29, 32, 51, 0.50) 0%, rgba(29, 32, 51, 0.56) 19%, rgba(29, 32, 51, 0.64) 36%, rgba(29, 32, 51, 0.71) 52%, rgba(29, 32, 51, 0.79) 65%, rgba(29, 32, 51, 0.87) 78%, rgba(29, 32, 51, 0.94) 89%, #1D2033 100%);
+    display: flex;
+    width: 100%;
+    height: 680px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .hero::before {
+    content: "";
+    background-image: linear-gradient(180deg, rgba(23, 26, 41, 0.96) 25%, rgba(23, 26, 41, 0.95) 29%, rgba(23, 26, 41, 0.94) 33%, rgba(23, 26, 41, 0.91) 36%, rgba(23, 26, 41, 0.87) 40%, rgba(23, 26, 41, 0.82) 43%, rgba(23, 26, 41, 0.76) 46%, rgba(23, 26, 41, 0.69) 49%, rgba(23, 26, 41, 0.62) 52%, rgba(23, 26, 41, 0.53) 56%, rgba(23, 26, 41, 0.44) 59%, rgba(23, 26, 41, 0.34) 62%, rgba(23, 26, 41, 0.24) 66%, rgba(23, 26, 41, 0.12) 70%, rgba(23, 26, 41, 0.00) 74%);
+    display: flex;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 0;
+  }
 
 .mobileSmall {
   display: block;
@@ -275,6 +317,33 @@ main {
   .asset-3x {
     width: 100%;
     height: auto;
+  }
+
+  .hero-component,
+  .hero{
+    width:100%;
+    height:512px;
+    object-fit: cover;
+  }
+
+  .hero::after {
+    content: "";
+    background-image: linear-gradient(180deg, rgba(29, 32, 51, 0.50) 0%, rgba(29, 32, 51, 0.56) 19%, rgba(29, 32, 51, 0.64) 36%, rgba(29, 32, 51, 0.71) 52%, rgba(29, 32, 51, 0.79) 65%, rgba(29, 32, 51, 0.87) 78%, rgba(29, 32, 51, 0.94) 89%, #1D2033 100%);
+    display: flex;
+    width: 100%;
+    height: 512px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .hero::before {
+    content: "";
+    background-image: linear-gradient(180deg, rgba(23, 26, 41, 0.96) 25%, rgba(23, 26, 41, 0.95) 29%, rgba(23, 26, 41, 0.94) 33%, rgba(23, 26, 41, 0.91) 36%, rgba(23, 26, 41, 0.87) 40%, rgba(23, 26, 41, 0.82) 43%, rgba(23, 26, 41, 0.76) 46%, rgba(23, 26, 41, 0.69) 49%, rgba(23, 26, 41, 0.62) 52%, rgba(23, 26, 41, 0.53) 56%, rgba(23, 26, 41, 0.44) 59%, rgba(23, 26, 41, 0.34) 62%, rgba(23, 26, 41, 0.24) 66%, rgba(23, 26, 41, 0.12) 70%, rgba(23, 26, 41, 0.00) 74%);
+    display: flex;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 0;
   }
 
   .mobileLarge {
@@ -318,6 +387,33 @@ main {
     height: auto;
   }
 
+  .hero-component,
+  .hero{
+    width:100%;
+    height:800px;
+    object-fit: cover;
+  }
+
+  .hero::after {
+    content: "";
+    background-image: linear-gradient(180deg, rgba(29, 32, 51, 0.50) 0%, rgba(29, 32, 51, 0.56) 19%, rgba(29, 32, 51, 0.64) 36%, rgba(29, 32, 51, 0.71) 52%, rgba(29, 32, 51, 0.79) 65%, rgba(29, 32, 51, 0.87) 78%, rgba(29, 32, 51, 0.94) 89%, #1D2033 100%);
+    display: flex;
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .hero::before {
+    content: "";
+    background-image: linear-gradient(180deg, rgba(23, 26, 41, 0.96) 25%, rgba(23, 26, 41, 0.95) 29%, rgba(23, 26, 41, 0.94) 33%, rgba(23, 26, 41, 0.91) 36%, rgba(23, 26, 41, 0.87) 40%, rgba(23, 26, 41, 0.82) 43%, rgba(23, 26, 41, 0.76) 46%, rgba(23, 26, 41, 0.69) 49%, rgba(23, 26, 41, 0.62) 52%, rgba(23, 26, 41, 0.53) 56%, rgba(23, 26, 41, 0.44) 59%, rgba(23, 26, 41, 0.34) 62%, rgba(23, 26, 41, 0.24) 66%, rgba(23, 26, 41, 0.12) 70%, rgba(23, 26, 41, 0.00) 74%);
+    display: flex;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 0;
+  }
+
   .desktopSmall {
     display: block;
   }
@@ -356,6 +452,33 @@ main {
   .asset-3x {
     width: 100%;
     height: auto;
+  }
+
+  .hero-component,
+  .hero{
+    width:100%;
+    height:864px;
+    object-fit: cover;
+  }
+
+  .hero::after {
+    content: "";
+    background-image: linear-gradient(180deg, rgba(29, 32, 51, 0.50) 0%, rgba(29, 32, 51, 0.56) 19%, rgba(29, 32, 51, 0.64) 36%, rgba(29, 32, 51, 0.71) 52%, rgba(29, 32, 51, 0.79) 65%, rgba(29, 32, 51, 0.87) 78%, rgba(29, 32, 51, 0.94) 89%, #1D2033 100%);
+    display: flex;
+    width: 100%;
+    height: 864px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .hero::before {
+    content: "";
+    background-image: linear-gradient(180deg, rgba(23, 26, 41, 0.96) 25%, rgba(23, 26, 41, 0.95) 29%, rgba(23, 26, 41, 0.94) 33%, rgba(23, 26, 41, 0.91) 36%, rgba(23, 26, 41, 0.87) 40%, rgba(23, 26, 41, 0.82) 43%, rgba(23, 26, 41, 0.76) 46%, rgba(23, 26, 41, 0.69) 49%, rgba(23, 26, 41, 0.62) 52%, rgba(23, 26, 41, 0.53) 56%, rgba(23, 26, 41, 0.44) 59%, rgba(23, 26, 41, 0.34) 62%, rgba(23, 26, 41, 0.24) 66%, rgba(23, 26, 41, 0.12) 70%, rgba(23, 26, 41, 0.00) 74%);
+    display: flex;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 0;
   }
 
   .desktopMedium {
@@ -399,6 +522,33 @@ main {
     height: auto;
   }
 
+  .hero-component,
+  .hero{
+    width:100%;
+    height:840px;
+    object-fit: cover;
+  }
+
+  .hero::after {
+    content: "";
+    background-image: linear-gradient(180deg, rgba(29, 32, 51, 0.50) 0%, rgba(29, 32, 51, 0.56) 19%, rgba(29, 32, 51, 0.64) 36%, rgba(29, 32, 51, 0.71) 52%, rgba(29, 32, 51, 0.79) 65%, rgba(29, 32, 51, 0.87) 78%, rgba(29, 32, 51, 0.94) 89%, #1D2033 100%);
+    display: flex;
+    width: 100%;
+    height: 840px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .hero::before {
+    content: "";
+    background-image: linear-gradient(180deg, rgba(23, 26, 41, 0.96) 25%, rgba(23, 26, 41, 0.95) 29%, rgba(23, 26, 41, 0.94) 33%, rgba(23, 26, 41, 0.91) 36%, rgba(23, 26, 41, 0.87) 40%, rgba(23, 26, 41, 0.82) 43%, rgba(23, 26, 41, 0.76) 46%, rgba(23, 26, 41, 0.69) 49%, rgba(23, 26, 41, 0.62) 52%, rgba(23, 26, 41, 0.53) 56%, rgba(23, 26, 41, 0.44) 59%, rgba(23, 26, 41, 0.34) 62%, rgba(23, 26, 41, 0.24) 66%, rgba(23, 26, 41, 0.12) 70%, rgba(23, 26, 41, 0.00) 74%);
+    display: flex;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 0;
+  }
+
   .desktopLarge {
     display: block;
   }
@@ -412,6 +562,8 @@ main {
   .mobileSmall {
     display: none;
   }
+
+  .
 }
 
 /*******************************************************/
@@ -437,6 +589,33 @@ main {
   .asset-3x {
     width: 100%;
     height: auto;
+  }
+
+  .hero-component,
+  .hero{
+    width:100%;
+    height:840px;
+    object-fit: cover;
+  }
+
+  .hero::after {
+    content: "";
+    background-image: linear-gradient(180deg, rgba(29, 32, 51, 0.50) 0%, rgba(29, 32, 51, 0.56) 19%, rgba(29, 32, 51, 0.64) 36%, rgba(29, 32, 51, 0.71) 52%, rgba(29, 32, 51, 0.79) 65%, rgba(29, 32, 51, 0.87) 78%, rgba(29, 32, 51, 0.94) 89%, #1D2033 100%);
+    display: flex;
+    width: 100%;
+    height: 840px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .hero::before {
+    content: "";
+    background-image: linear-gradient(180deg, rgba(23, 26, 41, 0.96) 25%, rgba(23, 26, 41, 0.95) 29%, rgba(23, 26, 41, 0.94) 33%, rgba(23, 26, 41, 0.91) 36%, rgba(23, 26, 41, 0.87) 40%, rgba(23, 26, 41, 0.82) 43%, rgba(23, 26, 41, 0.76) 46%, rgba(23, 26, 41, 0.69) 49%, rgba(23, 26, 41, 0.62) 52%, rgba(23, 26, 41, 0.53) 56%, rgba(23, 26, 41, 0.44) 59%, rgba(23, 26, 41, 0.34) 62%, rgba(23, 26, 41, 0.24) 66%, rgba(23, 26, 41, 0.12) 70%, rgba(23, 26, 41, 0.00) 74%);
+    display: flex;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 0;
   }
 
   .desktopXLarge {
@@ -480,6 +659,33 @@ main {
     height: auto;
   }
 
+  .hero-component,
+  .hero{
+    width:100%;
+    height:840px;
+    object-fit: cover;
+  }
+
+  .hero::after {
+    content: "";
+    background-image: linear-gradient(180deg, rgba(29, 32, 51, 0.50) 0%, rgba(29, 32, 51, 0.56) 19%, rgba(29, 32, 51, 0.64) 36%, rgba(29, 32, 51, 0.71) 52%, rgba(29, 32, 51, 0.79) 65%, rgba(29, 32, 51, 0.87) 78%, rgba(29, 32, 51, 0.94) 89%, #1D2033 100%);
+    display: flex;
+    width: 100%;
+    height: 840px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .hero::before {
+    content: "";
+    background-image: linear-gradient(180deg, rgba(23, 26, 41, 0.96) 25%, rgba(23, 26, 41, 0.95) 29%, rgba(23, 26, 41, 0.94) 33%, rgba(23, 26, 41, 0.91) 36%, rgba(23, 26, 41, 0.87) 40%, rgba(23, 26, 41, 0.82) 43%, rgba(23, 26, 41, 0.76) 46%, rgba(23, 26, 41, 0.69) 49%, rgba(23, 26, 41, 0.62) 52%, rgba(23, 26, 41, 0.53) 56%, rgba(23, 26, 41, 0.44) 59%, rgba(23, 26, 41, 0.34) 62%, rgba(23, 26, 41, 0.24) 66%, rgba(23, 26, 41, 0.12) 70%, rgba(23, 26, 41, 0.00) 74%);
+    display: flex;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 0;
+  }
+
   .desktopXXLarge {
     display: block;
   }
@@ -520,6 +726,33 @@ main {
   .asset-3x {
     width: 100%;
     height: auto;
+  }
+
+  .hero-component,
+  .hero{
+    width:100%;
+    height:1152px;
+    object-fit: cover;
+  }
+
+  .hero::after {
+    content: "";
+    background-image: linear-gradient(180deg, rgba(29, 32, 51, 0.50) 0%, rgba(29, 32, 51, 0.56) 19%, rgba(29, 32, 51, 0.64) 36%, rgba(29, 32, 51, 0.71) 52%, rgba(29, 32, 51, 0.79) 65%, rgba(29, 32, 51, 0.87) 78%, rgba(29, 32, 51, 0.94) 89%, #1D2033 100%);
+    display: flex;
+    width: 100%;
+    height: 1152px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .hero::before {
+    content: "";
+    background-image: linear-gradient(180deg, rgba(23, 26, 41, 0.96) 25%, rgba(23, 26, 41, 0.95) 29%, rgba(23, 26, 41, 0.94) 33%, rgba(23, 26, 41, 0.91) 36%, rgba(23, 26, 41, 0.87) 40%, rgba(23, 26, 41, 0.82) 43%, rgba(23, 26, 41, 0.76) 46%, rgba(23, 26, 41, 0.69) 49%, rgba(23, 26, 41, 0.62) 52%, rgba(23, 26, 41, 0.53) 56%, rgba(23, 26, 41, 0.44) 59%, rgba(23, 26, 41, 0.34) 62%, rgba(23, 26, 41, 0.24) 66%, rgba(23, 26, 41, 0.12) 70%, rgba(23, 26, 41, 0.00) 74%);
+    display: flex;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 0;
   }
 
   .desktopXXXLarge {

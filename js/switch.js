@@ -12,5 +12,4 @@ function image1(evt, pixelDensity) {
     evt.currentTarget.className += " active";
   }
 
-  // Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen1").click();
+  document.getElementById("defaultOpen1").click();
