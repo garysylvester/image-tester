@@ -213,12 +213,12 @@ li.listB {
   color: var(--color-neutral-0);
 }
 
-.row{
+.row {
   margin-top: var(--dimension-space-larger);
   text-align: center;
 }
 
-.content{
+.content {
   text-align: center;
 }
 
@@ -254,31 +254,45 @@ main {
 }
 
 .hero-component,
-  .hero{
-    width:100%;
-    height:680px;
-    object-fit: cover;
-  }
+.hero {
+  width: 100%;
+  height: 680px;
+  object-fit: cover;
+}
 
-  .hero::after {
-    content: "";
-    background-image: linear-gradient(180deg, rgba(29, 32, 51, 0.50) 0%, rgba(29, 32, 51, 0.56) 19%, rgba(29, 32, 51, 0.64) 36%, rgba(29, 32, 51, 0.71) 52%, rgba(29, 32, 51, 0.79) 65%, rgba(29, 32, 51, 0.87) 78%, rgba(29, 32, 51, 0.94) 89%, #1D2033 100%);
-    display: flex;
-    width: 100%;
-    height: 680px;
-    position: absolute;
-    top: 0;
-  }
-  
-  .hero::before {
-    content: "";
-    background-image: linear-gradient(180deg, rgba(23, 26, 41, 0.96) 25%, rgba(23, 26, 41, 0.95) 29%, rgba(23, 26, 41, 0.94) 33%, rgba(23, 26, 41, 0.91) 36%, rgba(23, 26, 41, 0.87) 40%, rgba(23, 26, 41, 0.82) 43%, rgba(23, 26, 41, 0.76) 46%, rgba(23, 26, 41, 0.69) 49%, rgba(23, 26, 41, 0.62) 52%, rgba(23, 26, 41, 0.53) 56%, rgba(23, 26, 41, 0.44) 59%, rgba(23, 26, 41, 0.34) 62%, rgba(23, 26, 41, 0.24) 66%, rgba(23, 26, 41, 0.12) 70%, rgba(23, 26, 41, 0.00) 74%);
-    display: flex;
-    width: 100%;
-    height: 350px;
-    position: absolute;
-    top: 0;
-  }
+.hero::after {
+  content: "";
+  background-image: linear-gradient(180deg, rgba(29, 32, 51, 0.50) 0%, rgba(29, 32, 51, 0.56) 19%, rgba(29, 32, 51, 0.64) 36%, rgba(29, 32, 51, 0.71) 52%, rgba(29, 32, 51, 0.79) 65%, rgba(29, 32, 51, 0.87) 78%, rgba(29, 32, 51, 0.94) 89%, #1D2033 100%);
+  display: flex;
+  width: 100%;
+  height: 680px;
+  position: absolute;
+  top: 0;
+}
+
+.hero::before {
+  content: "";
+  background-image: linear-gradient(180deg,
+      rgba(23, 26, 41, 0.95) 0%,
+      rgba(23, 26, 41, 0.9) 9%,
+      rgba(23, 26, 41, 0.85) 18%,
+      rgba(23, 26, 41, 0.8) 28%,
+      rgba(23, 26, 41, 0.7) 37%,
+      rgba(23, 26, 41, 0.6) 47%,
+      rgba(23, 26, 41, 0.5) 56%,
+      rgba(23, 26, 41, 0.4) 65%,
+      rgba(23, 26, 41, 0.3) 73%,
+      rgba(23, 26, 41, 0.2) 80%,
+      rgba(23, 26, 41, 0.1) 87%,
+      rgba(23, 26, 41, 0.05) 93%,
+      rgba(23, 26, 41, 0.01) 96%,
+      rgba(23, 26, 41, 0.0) 100%);
+  display: flex;
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  top: 0;
+}
 
 .mobileSmall {
   display: block;
@@ -320,9 +334,9 @@ main {
   }
 
   .hero-component,
-  .hero{
-    width:100%;
-    height:512px;
+  .hero {
+    width: 100%;
+    height: 512px;
     object-fit: cover;
   }
 
@@ -335,10 +349,24 @@ main {
     position: absolute;
     top: 0;
   }
-  
+
   .hero::before {
     content: "";
-    background-image: linear-gradient(180deg, rgba(23, 26, 41, 0.96) 25%, rgba(23, 26, 41, 0.95) 29%, rgba(23, 26, 41, 0.94) 33%, rgba(23, 26, 41, 0.91) 36%, rgba(23, 26, 41, 0.87) 40%, rgba(23, 26, 41, 0.82) 43%, rgba(23, 26, 41, 0.76) 46%, rgba(23, 26, 41, 0.69) 49%, rgba(23, 26, 41, 0.62) 52%, rgba(23, 26, 41, 0.53) 56%, rgba(23, 26, 41, 0.44) 59%, rgba(23, 26, 41, 0.34) 62%, rgba(23, 26, 41, 0.24) 66%, rgba(23, 26, 41, 0.12) 70%, rgba(23, 26, 41, 0.00) 74%);
+    background-image: linear-gradient(180deg,
+        rgba(23, 26, 41, 0.95) 0%,
+        rgba(23, 26, 41, 0.9) 9%,
+        rgba(23, 26, 41, 0.85) 18%,
+        rgba(23, 26, 41, 0.8) 28%,
+        rgba(23, 26, 41, 0.7) 37%,
+        rgba(23, 26, 41, 0.6) 47%,
+        rgba(23, 26, 41, 0.5) 56%,
+        rgba(23, 26, 41, 0.4) 65%,
+        rgba(23, 26, 41, 0.3) 73%,
+        rgba(23, 26, 41, 0.2) 80%,
+        rgba(23, 26, 41, 0.1) 87%,
+        rgba(23, 26, 41, 0.05) 93%,
+        rgba(23, 26, 41, 0.01) 96%,
+        rgba(23, 26, 41, 0.0) 100%);
     display: flex;
     width: 100%;
     height: 350px;
@@ -388,9 +416,9 @@ main {
   }
 
   .hero-component,
-  .hero{
-    width:100%;
-    height:800px;
+  .hero {
+    width: 100%;
+    height: 800px;
     object-fit: cover;
   }
 
@@ -403,10 +431,24 @@ main {
     position: absolute;
     top: 0;
   }
-  
+
   .hero::before {
     content: "";
-    background-image: linear-gradient(180deg, rgba(23, 26, 41, 0.96) 25%, rgba(23, 26, 41, 0.95) 29%, rgba(23, 26, 41, 0.94) 33%, rgba(23, 26, 41, 0.91) 36%, rgba(23, 26, 41, 0.87) 40%, rgba(23, 26, 41, 0.82) 43%, rgba(23, 26, 41, 0.76) 46%, rgba(23, 26, 41, 0.69) 49%, rgba(23, 26, 41, 0.62) 52%, rgba(23, 26, 41, 0.53) 56%, rgba(23, 26, 41, 0.44) 59%, rgba(23, 26, 41, 0.34) 62%, rgba(23, 26, 41, 0.24) 66%, rgba(23, 26, 41, 0.12) 70%, rgba(23, 26, 41, 0.00) 74%);
+    background-image: linear-gradient(180deg,
+        rgba(23, 26, 41, 0.95) 0%,
+        rgba(23, 26, 41, 0.9) 9%,
+        rgba(23, 26, 41, 0.85) 18%,
+        rgba(23, 26, 41, 0.8) 28%,
+        rgba(23, 26, 41, 0.7) 37%,
+        rgba(23, 26, 41, 0.6) 47%,
+        rgba(23, 26, 41, 0.5) 56%,
+        rgba(23, 26, 41, 0.4) 65%,
+        rgba(23, 26, 41, 0.3) 73%,
+        rgba(23, 26, 41, 0.2) 80%,
+        rgba(23, 26, 41, 0.1) 87%,
+        rgba(23, 26, 41, 0.05) 93%,
+        rgba(23, 26, 41, 0.01) 96%,
+        rgba(23, 26, 41, 0.0) 100%);
     display: flex;
     width: 100%;
     height: 350px;
@@ -455,9 +497,9 @@ main {
   }
 
   .hero-component,
-  .hero{
-    width:100%;
-    height:864px;
+  .hero {
+    width: 100%;
+    height: 864px;
     object-fit: cover;
   }
 
@@ -470,10 +512,24 @@ main {
     position: absolute;
     top: 0;
   }
-  
+
   .hero::before {
     content: "";
-    background-image: linear-gradient(180deg, rgba(23, 26, 41, 0.96) 25%, rgba(23, 26, 41, 0.95) 29%, rgba(23, 26, 41, 0.94) 33%, rgba(23, 26, 41, 0.91) 36%, rgba(23, 26, 41, 0.87) 40%, rgba(23, 26, 41, 0.82) 43%, rgba(23, 26, 41, 0.76) 46%, rgba(23, 26, 41, 0.69) 49%, rgba(23, 26, 41, 0.62) 52%, rgba(23, 26, 41, 0.53) 56%, rgba(23, 26, 41, 0.44) 59%, rgba(23, 26, 41, 0.34) 62%, rgba(23, 26, 41, 0.24) 66%, rgba(23, 26, 41, 0.12) 70%, rgba(23, 26, 41, 0.00) 74%);
+    background-image: linear-gradient(180deg,
+        rgba(23, 26, 41, 0.95) 0%,
+        rgba(23, 26, 41, 0.9) 9%,
+        rgba(23, 26, 41, 0.85) 18%,
+        rgba(23, 26, 41, 0.8) 28%,
+        rgba(23, 26, 41, 0.7) 37%,
+        rgba(23, 26, 41, 0.6) 47%,
+        rgba(23, 26, 41, 0.5) 56%,
+        rgba(23, 26, 41, 0.4) 65%,
+        rgba(23, 26, 41, 0.3) 73%,
+        rgba(23, 26, 41, 0.2) 80%,
+        rgba(23, 26, 41, 0.1) 87%,
+        rgba(23, 26, 41, 0.05) 93%,
+        rgba(23, 26, 41, 0.01) 96%,
+        rgba(23, 26, 41, 0.0) 100%);
     display: flex;
     width: 100%;
     height: 350px;
@@ -523,9 +579,9 @@ main {
   }
 
   .hero-component,
-  .hero{
-    width:100%;
-    height:840px;
+  .hero {
+    width: 100%;
+    height: 840px;
     object-fit: cover;
   }
 
@@ -538,10 +594,24 @@ main {
     position: absolute;
     top: 0;
   }
-  
+
   .hero::before {
     content: "";
-    background-image: linear-gradient(180deg, rgba(23, 26, 41, 0.96) 25%, rgba(23, 26, 41, 0.95) 29%, rgba(23, 26, 41, 0.94) 33%, rgba(23, 26, 41, 0.91) 36%, rgba(23, 26, 41, 0.87) 40%, rgba(23, 26, 41, 0.82) 43%, rgba(23, 26, 41, 0.76) 46%, rgba(23, 26, 41, 0.69) 49%, rgba(23, 26, 41, 0.62) 52%, rgba(23, 26, 41, 0.53) 56%, rgba(23, 26, 41, 0.44) 59%, rgba(23, 26, 41, 0.34) 62%, rgba(23, 26, 41, 0.24) 66%, rgba(23, 26, 41, 0.12) 70%, rgba(23, 26, 41, 0.00) 74%);
+    background-image: linear-gradient(180deg,
+        rgba(23, 26, 41, 0.95) 0%,
+        rgba(23, 26, 41, 0.9) 9%,
+        rgba(23, 26, 41, 0.85) 18%,
+        rgba(23, 26, 41, 0.8) 28%,
+        rgba(23, 26, 41, 0.7) 37%,
+        rgba(23, 26, 41, 0.6) 47%,
+        rgba(23, 26, 41, 0.5) 56%,
+        rgba(23, 26, 41, 0.4) 65%,
+        rgba(23, 26, 41, 0.3) 73%,
+        rgba(23, 26, 41, 0.2) 80%,
+        rgba(23, 26, 41, 0.1) 87%,
+        rgba(23, 26, 41, 0.05) 93%,
+        rgba(23, 26, 41, 0.01) 96%,
+        rgba(23, 26, 41, 0.0) 100%);
     display: flex;
     width: 100%;
     height: 350px;
@@ -590,9 +660,9 @@ main {
   }
 
   .hero-component,
-  .hero{
-    width:100%;
-    height:840px;
+  .hero {
+    width: 100%;
+    height: 840px;
     object-fit: cover;
   }
 
@@ -605,16 +675,31 @@ main {
     position: absolute;
     top: 0;
   }
-  
+
   .hero::before {
     content: "";
-    background-image: linear-gradient(180deg, rgba(23, 26, 41, 0.96) 25%, rgba(23, 26, 41, 0.95) 29%, rgba(23, 26, 41, 0.94) 33%, rgba(23, 26, 41, 0.91) 36%, rgba(23, 26, 41, 0.87) 40%, rgba(23, 26, 41, 0.82) 43%, rgba(23, 26, 41, 0.76) 46%, rgba(23, 26, 41, 0.69) 49%, rgba(23, 26, 41, 0.62) 52%, rgba(23, 26, 41, 0.53) 56%, rgba(23, 26, 41, 0.44) 59%, rgba(23, 26, 41, 0.34) 62%, rgba(23, 26, 41, 0.24) 66%, rgba(23, 26, 41, 0.12) 70%, rgba(23, 26, 41, 0.00) 74%);
+    background-image: linear-gradient(180deg,
+        rgba(23, 26, 41, 0.95) 0%,
+        rgba(23, 26, 41, 0.9) 9%,
+        rgba(23, 26, 41, 0.85) 18%,
+        rgba(23, 26, 41, 0.8) 28%,
+        rgba(23, 26, 41, 0.7) 37%,
+        rgba(23, 26, 41, 0.6) 47%,
+        rgba(23, 26, 41, 0.5) 56%,
+        rgba(23, 26, 41, 0.4) 65%,
+        rgba(23, 26, 41, 0.3) 73%,
+        rgba(23, 26, 41, 0.2) 80%,
+        rgba(23, 26, 41, 0.1) 87%,
+        rgba(23, 26, 41, 0.05) 93%,
+        rgba(23, 26, 41, 0.01) 96%,
+        rgba(23, 26, 41, 0.0) 100%);
     display: flex;
     width: 100%;
     height: 350px;
     position: absolute;
     top: 0;
   }
+
 
   .desktopXLarge {
     display: block;
@@ -658,9 +743,9 @@ main {
   }
 
   .hero-component,
-  .hero{
-    width:100%;
-    height:840px;
+  .hero {
+    width: 100%;
+    height: 840px;
     object-fit: cover;
   }
 
@@ -673,10 +758,24 @@ main {
     position: absolute;
     top: 0;
   }
-  
+
   .hero::before {
     content: "";
-    background-image: linear-gradient(180deg, rgba(23, 26, 41, 0.96) 25%, rgba(23, 26, 41, 0.95) 29%, rgba(23, 26, 41, 0.94) 33%, rgba(23, 26, 41, 0.91) 36%, rgba(23, 26, 41, 0.87) 40%, rgba(23, 26, 41, 0.82) 43%, rgba(23, 26, 41, 0.76) 46%, rgba(23, 26, 41, 0.69) 49%, rgba(23, 26, 41, 0.62) 52%, rgba(23, 26, 41, 0.53) 56%, rgba(23, 26, 41, 0.44) 59%, rgba(23, 26, 41, 0.34) 62%, rgba(23, 26, 41, 0.24) 66%, rgba(23, 26, 41, 0.12) 70%, rgba(23, 26, 41, 0.00) 74%);
+    background-image: linear-gradient(180deg,
+        rgba(23, 26, 41, 0.95) 0%,
+        rgba(23, 26, 41, 0.9) 9%,
+        rgba(23, 26, 41, 0.85) 18%,
+        rgba(23, 26, 41, 0.8) 28%,
+        rgba(23, 26, 41, 0.7) 37%,
+        rgba(23, 26, 41, 0.6) 47%,
+        rgba(23, 26, 41, 0.5) 56%,
+        rgba(23, 26, 41, 0.4) 65%,
+        rgba(23, 26, 41, 0.3) 73%,
+        rgba(23, 26, 41, 0.2) 80%,
+        rgba(23, 26, 41, 0.1) 87%,
+        rgba(23, 26, 41, 0.05) 93%,
+        rgba(23, 26, 41, 0.01) 96%,
+        rgba(23, 26, 41, 0.0) 100%);
     display: flex;
     width: 100%;
     height: 350px;
@@ -727,9 +826,9 @@ main {
   }
 
   .hero-component,
-  .hero{
-    width:100%;
-    height:1152px;
+  .hero {
+    width: 100%;
+    height: 1152px;
     object-fit: cover;
   }
 
@@ -742,10 +841,24 @@ main {
     position: absolute;
     top: 0;
   }
-  
+
   .hero::before {
     content: "";
-    background-image: linear-gradient(180deg, rgba(23, 26, 41, 0.96) 25%, rgba(23, 26, 41, 0.95) 29%, rgba(23, 26, 41, 0.94) 33%, rgba(23, 26, 41, 0.91) 36%, rgba(23, 26, 41, 0.87) 40%, rgba(23, 26, 41, 0.82) 43%, rgba(23, 26, 41, 0.76) 46%, rgba(23, 26, 41, 0.69) 49%, rgba(23, 26, 41, 0.62) 52%, rgba(23, 26, 41, 0.53) 56%, rgba(23, 26, 41, 0.44) 59%, rgba(23, 26, 41, 0.34) 62%, rgba(23, 26, 41, 0.24) 66%, rgba(23, 26, 41, 0.12) 70%, rgba(23, 26, 41, 0.00) 74%);
+    background-image: linear-gradient(180deg,
+        rgba(23, 26, 41, 0.95) 0%,
+        rgba(23, 26, 41, 0.9) 9%,
+        rgba(23, 26, 41, 0.85) 18%,
+        rgba(23, 26, 41, 0.8) 28%,
+        rgba(23, 26, 41, 0.7) 37%,
+        rgba(23, 26, 41, 0.6) 47%,
+        rgba(23, 26, 41, 0.5) 56%,
+        rgba(23, 26, 41, 0.4) 65%,
+        rgba(23, 26, 41, 0.3) 73%,
+        rgba(23, 26, 41, 0.2) 80%,
+        rgba(23, 26, 41, 0.1) 87%,
+        rgba(23, 26, 41, 0.05) 93%,
+        rgba(23, 26, 41, 0.01) 96%,
+        rgba(23, 26, 41, 0.0) 100%);
     display: flex;
     width: 100%;
     height: 350px;
